@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+/* Specific Styles */
+
+/* Interactive Growth Tracker Styles */
+#growth-tracker-form label,
+#growth-tracker-form select,
+#growth-tracker-form input[type="date"],
+#growth-tracker-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#growth-tracker-result {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Community Forums Styles */
+#forum-posts {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#forum-post-form label,
+#forum-post-form input[type="text"],
+#forum-post-form textarea,
+#forum-post-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Marketplace Styles */
+#product-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Crop Disease Identification Styles */
+#disease-form label,
+#disease-form select,
+#disease-form input[type="file"],
+#disease-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#disease-result {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Soil Testing and Analysis Styles */
+#soil-test-form label,
+#soil-test-form input[type="file"],
+#soil-test-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#soil-test-result {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Financial Tools and Calculators Styles */
+#cost-calculator-form label,
+#cost-calculator-form select,
+#cost-calculator-form input[type="number"],
+#cost-calculator-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cost-calculation-result {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
